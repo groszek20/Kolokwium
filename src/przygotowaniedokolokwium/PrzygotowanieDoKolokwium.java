@@ -8,7 +8,7 @@ package przygotowaniedokolokwium;
 public class PrzygotowanieDoKolokwium {
 
     public static void main(String[] args) {
-        Sport[] sporty = new Sport[2];
+        Sport[] sporty = new Sport[3];
         SportZPilka[] sportyZPilka = new SportZPilka[2];
         sportyZPilka[0] = new PilkaNozna("Bramkarz");
         sportyZPilka[1] = new Koszykowka("Rozgrywajacy");
