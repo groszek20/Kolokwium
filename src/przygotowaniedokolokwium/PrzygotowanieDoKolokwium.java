@@ -12,15 +12,13 @@ public class PrzygotowanieDoKolokwium {
         SportZPilka[] sportyZPilka = new SportZPilka[2];
         sportyZPilka[0] = new PilkaNozna("Bramkarz");
         sportyZPilka[1] = new Koszykowka("Rozgrywajacy");
-//        sporty[0] = new Biegi("Maraton");
-        sporty[0] = sportyZPilka[0];
-        sporty[1] = sportyZPilka[1];
-//        for (Sport sport : sporty) {
-//            sport.wypisz();            
-//        }
-        
-        sporty[0].wypisz();
-        sporty[1].wypisz();
+        sporty[0] = new Biegi("Maraton");
+        sporty[1] = sportyZPilka[0];
+        sporty[2] = sportyZPilka[1];
+        for (Sport sport : sporty) {
+            sport.wypisz();            
+        }
+
     }
     
 }
